@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SampleExample</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="user_name">User Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="country_prompt">Choose a country</string>
+    <string name="colour_prompt">Choose a colour</string>
+    <string name="lane_prompt">Choose a lane</string>
+    <string name="position_prompt">Choose a position</string>
+    <string name="payment_prompt">Choose a payment</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="colour_arrays">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="lane_arrays">
+        <item>Lane-A</item>
+        <item>Lane-B</item>
+        <item>Lane-C</item>
+        <item>Lane-D</item>
+        <item>Lane-E</item>
+    </string-array>
+
+    <string-array name="position_arrays">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+
+    </string-array>
+
+    <string-array name="payment_arrays">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Visa</item>
+        <item>Cash</item>
+        <item>Master Card</item>
+    </string-array>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

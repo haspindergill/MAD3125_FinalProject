@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="false"
+    android:background="#b4b4b5"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8d7d9"
+    android:layout_marginBottom="5dp">
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp"
+        android:text="Employee Name"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAlignment="viewStart"
+        android:textStyle="normal"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:text="$5"
+        android:textAlignment="viewStart"
+        android:textColor="#99503a"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imgEmp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        app:srcCompat="@drawable/car_image" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Employee ID"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmployeeID"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@+id/imgEmp"
+        android:text="Employee Name"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtLane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmployeeID"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@+id/imgEmp"
+            android:text="Employee Name"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmployeeID"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@+id/imgEmp"
+            android:text="Employee Name"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
